@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+  background-color: pink;
+}
+
+.towers-container {
+  display: flex;
+}
+
+ 
+
+
+
+ #tower1{
+  height: 10px;
+  width: 100px;
+  margin: 300px 50px 50px -350px;
+ background-color: black;
+ border-radius: 2px;
+
+ }
+
+#tower2{
+  height: 100px;
+  width: 10px;
+  margin: 200px 20px 11px -110px;
+  background-color: black;
+  border-radius:2px;
+}
+#tower3{
+  height: 10px;
+  width: 100px;
+  margin: 300px 50px 50px 80px;
+  background-color: black;
+  border-radius:2px;
+}
+#tower4{
+  height: 100px;
+  width: 10px;
+  margin: 200px 50px 150px -110px;
+  background-color: black;
+
+  border-top-right-radius:2px;
+  border-top-left-radius:2px;
+}
+#tower5{
+  height: 100px;
+  width: 10px;
+  margin: 200px 135px 15px 100px;
+  background-color: black;
+  border-top-right-radius:2px;
+  border-top-left-radius:2px;
+}
+#tower6{
+  height: 10px;
+  width: 100px;
+  margin: 300px 100px 100px -190px;
+  background-color:black;
+  border-radius:2px;
+
+}
+#tower7{
+  height: 10px;
+  width: 70px;
+  background-color: red;
+  margin:290px 50px 50px -495px;
+  border-radius:5px;
+}
+#tower8{
+  height: 10px;
+  width: 60px;
+  background-color: purple;
+  margin:280px 50px 50px -115px;
+  border-radius:5px;
+}
+#tower9{
+  height: 10px;
+  width: 50px;
+  background-color:orange;
+  margin:270px 50px 50px -105px;
+  border-radius:5px;
+}
+#tower10{
+  height: 10px;
+  width: 40px;
+  background-color:blue;
+  margin:260px 50px 50px -95px;
+  border-radius:5px;
+}
+
+#tower11{
+  height: 10px;
+  width: 30px;
+  background-color:green;
+  margin:250px 50px 50px -85px;
+  border-radius:5px;
+}
+
+#tower12{
+  height: 10px;
+  width: 20px;
+  background-color:violet;
+  margin:240px 50px 50px -75px;
+  border-radius:5px;
+}
+
+.tower {
+  width: 10px;
+  height: 100px;
+  background-color: black;
+  position: relative;
+  margin: 50px 50px 50px 50px;
+  cursor: pointer;
+}
+
+.disk {
+  background-color: #3498db;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+.name{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* 
+#disk1 { width: 15px; height: 10px; color: #333;}
+#disk2 { width: 7px; height: 25px; color: #500; }
+#disk3 { width: 1px; height: 50px; color: #3498db;} */
